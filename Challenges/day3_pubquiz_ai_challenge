@@ -1,0 +1,39 @@
+print('Welcome to Pete\'s Pub Quiz')
+
+score = 0
+
+question_one = input("Question one:\nWhat country is Queensland in\n").lower()
+
+question_two = input("Question two:\nWhat country do the All Blacks originate?\n").lower()
+question_three= input("Question three\nWho makes the BT50 SP Ute?\n").lower()
+
+if question_one == "australia":
+    score += 1
+    
+
+if question_two == "new zealand" or question_two == "nz" :
+    score += 1
+   
+
+if question_three == "mazda":
+    score += 1
+   
+if score == 3:
+        print(f"Congratulations!. You scored {score}/3")
+
+elif score == 2:
+        print(f"Well done!. You scored {score}/3")
+        
+elif score == 1:
+        print(f"Better luck next time! You scored {score}/3")
+else:
+        print("Dumb Fuck!")
+
+
+    
+          
+
+
+
+
+
