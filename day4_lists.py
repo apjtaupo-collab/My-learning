@@ -8,7 +8,6 @@ print(f"Who pays the lunch bill???\n{friends[who_pays]}")
 
 # uses a random module and list to determin who pays the bill
 
-#
 print(random.choice(friends))# .choice( is a fuction in the module random.)
 
 print(friends[4]) # will print an IndexError as it is out of range lists start from zero so index will be 0 to 4, not 5.
